@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("./Minimal-HD-Wallpaper-Free-download.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.caja{
+    margin-top: 200px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(40px);
+    border-radius: 30px !important;
+}
+.active{
+    margin-top: -180px;
+}
+h2{
+    font-size: 170px;
+    margin-top: -40px;
+}
+p:first-child{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+span{
+    font-size: 30px;
+}
+.titulo h1{
+    font-size: 70px;
+}
+form {
+    font-size: 20px;
+}
+form select option{
+    color: black;
+}
+.alert-message{
+    color: red;
+}
+.templado{
+    background-image: url("./templado.jpg");
+}
+.caluroso{
+    background-image: url("./caluroso.jpg");
+}
+.frio{
+    background-image: url("./frio.jpg");
+    background-size: cover;
+}

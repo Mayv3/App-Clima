@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App clima</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="./icono-clima.png">
+</head>
+<body>
+    <div class="container pt-3 pb-3 text-light w-75 p-5  rounded text-center d-flex flex-column justify-content-center align-items-center caja">
+        <div class="titulo"><h1 class="pt-3 ">Buscador del clima</h1></div>
+        <div class="result"><span>Agrega tu ciudad y pais</span></div>
+        
+        
+        
+        <form  action="" method="POST" id="get-weather" class="mt-4">
+            <div class="form-group ">
+                <input class="w-100 p-3 rounded border-0" name="city" id="city" type="text" placeholder="Ingresa una ciudad">
+            <select class="w-100 mt-3 p-3 rounded border-0 text-dark" name="country" id="country">
+                <option disabled selected value="">Selecciona el pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="MX">Mexico</option>
+                <option value="PE">Perú</option>
+                <option value="US">Estados Unidos</option>
+                <option value="ES">España</option>
+            </select>
+            <button class="btn btn-success w-100 mt-4 boton">Buscar</button>
+            </div>
+            
+        </form>
+        
+    </div>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
